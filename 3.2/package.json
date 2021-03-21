@@ -1,0 +1,23 @@
+{
+  "name": "redis-book-v3-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luin/redis-book-v3-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luin/redis-book-v3-code/issues"
+  },
+  "homepage": "https://github.com/luin/redis-book-v3-code#readme",
+  "dependencies": {
+    "ioredis": "^4.24.2"
+  }
+}
