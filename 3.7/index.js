@@ -1,5 +1,5 @@
 const pMap = require("p-map");
-const Redis = require("./lib/index");
+const Redis = require("ioredis");
 const redis = new Redis({ port: 9090, keyPrefix: "book:" });
 
 const RECORD_COUNT = 1000000;
